@@ -1,4 +1,4 @@
-# RetailMatrix : The-Intelligence-Engine-for-Ecommerce
+# RetailMatrix : The Intelligence Engine for Ecommerce
 
 This project is a complete, end-to-end data science solution built using the **UCI Online Retail Dataset**. As an aspiring data scientist, I wanted to showcase not just technical skills but the ability to think like a product owner — transforming raw data into real business outcomes.
 
