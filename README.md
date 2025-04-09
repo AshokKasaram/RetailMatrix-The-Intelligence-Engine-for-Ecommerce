@@ -172,7 +172,7 @@ To make this model usable by non-technical users, I built and deployed a Flask w
 
 ## 🧩 Tools & Technologies Used
 
-- **Languages & Libraries:** Python, Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn, XGBoost
+- **Languages & Libraries:** Python, Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn
 - **ML & NLP:** TF-IDF, Cosine Similarity, KMeans, Logistic Regression, Random Forest, XGBoost
 - **Web Development:** Flask, HTML, CSS, JavaScript (Select2.js)
 - **Deployment:** Flask-Ngrok, Jupyter Notebook
