@@ -6,7 +6,7 @@ I focused on building an analytics and machine learning pipeline that starts wit
 
 ---
 
-## 🎯 Business Objective & Key Questions
+## Business Objective & Key Questions
 
 The dataset contains over 500,000 transactions from an online retail store. My goal was to extract insights and build systems that would help a business understand its customers, products, and markets better.
 
@@ -22,7 +22,7 @@ The dataset contains over 500,000 transactions from an online retail store. My g
 
 ---
 
-## 📦 1. Data Loading & Understanding
+## 1. Data Loading & Understanding
 
 I began by loading and profiling the dataset, which includes:
 - Over 541,000 transaction records
@@ -34,7 +34,7 @@ I classified columns into categorical and numerical, analyzed missing values, an
 
 ---
 
-## 🧼 2. Data Cleaning
+## 2. Data Cleaning
 
 I cleaned the data by:
 - Removing rows with missing customer IDs (essential for tracking behavior)
@@ -49,23 +49,23 @@ This significantly improved the quality and consistency of the data.
 
 ---
 
-## 📊 3. Exploratory Data Analysis (EDA)
+## 3. Exploratory Data Analysis (EDA)
 
 I conducted a deep dive into the cleaned data to identify trends and patterns.
 
-### 🌍 Country Analysis:
+### Country Analysis:
 - The United Kingdom dominates the revenue (over 82%)
 - Other strong markets include Germany, France, and Ireland
 
-### 📦 Product Analysis:
+### Product Analysis:
 - Identified top 10 most-purchased and top revenue-generating products
 - Found hero products that rank high in both
 
-### 👥 Customer Behavior:
+### Customer Behavior:
 - Analyzed quantity, revenue, and average order value per customer
 - Identified high-value customers worth targeting for loyalty programs
 
-### ⏰ Time-Based Trends:
+### Time-Based Trends:
 - Sales peak during weekdays and working hours
 - Seasonal spikes around holidays
 
@@ -73,7 +73,7 @@ I conducted a deep dive into the cleaned data to identify trends and patterns.
 
 ---
 
-## ⚙️ 4. Feature Engineering
+## 4. Feature Engineering
 
 I created new features to capture customer behavior and product performance:
 
@@ -95,26 +95,26 @@ These features were later used for modeling, segmentation, and recommendations.
 
 ---
 
-## 🤝 5. Recommendation Systems
+## 5. Recommendation Systems
 
 I implemented 3 types of recommenders:
 
-### 📄 Content-Based:
+### Content-Based:
 - Used TF-IDF on product descriptions
 - Found similar products based on text similarity
 
-### 👥 Collaborative Filtering:
+### Collaborative Filtering:
 - Built a customer-product matrix
 - Recommended products based on similar users’ purchase history
 
-### 🔀 Hybrid:
+### Hybrid:
 - Blended both systems using a weight parameter `α`
 
 > **Why this matters:** Intelligent product recommendations increase engagement and sales.
 
 ---
 
-## 🔍 6. Customer Segmentation
+## 6. Customer Segmentation
 
 I applied RFM analysis and clustering to group customers.
 
@@ -132,7 +132,7 @@ I applied RFM analysis and clustering to group customers.
 
 ---
 
-## 🧠 7. Predictive Modeling: Will a Customer Reorder?
+## 7. Predictive Modeling: Will a Customer Reorder?
 
 I built a binary classification model to predict if a customer would reorder a product.
 
@@ -156,7 +156,7 @@ I evaluated models using precision, recall, and F1 score. XGBoost gave the most 
 
 ---
 
-## 🚀 8. Real-Time Reorder Prediction App
+## 8. Real-Time Reorder Prediction App
 
 To make this model usable by non-technical users, I built and deployed a Flask web app.
 
@@ -170,7 +170,7 @@ To make this model usable by non-technical users, I built and deployed a Flask w
 
 ---
 
-## 🧩 Tools & Technologies Used
+## Tools & Technologies Used
 
 - **Languages & Libraries:** Python, Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn
 - **ML & NLP:** TF-IDF, Cosine Similarity, KMeans, Logistic Regression, Random Forest, XGBoost
